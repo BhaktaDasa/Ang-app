@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## CLI
+
+sudo npm install -g @angular/cli
+
+rm package-lock.json
+
+echo "package-lck.json" >> .gitignore
+
+git commit -a
+
+git remote add origin https://github.com/username/app-name.git
+
+or
+
+git remote set-url origin https://<token>@github.com/<username>/<repo>
+
+git push -u origin main
+
+or
+
+git push origin master --force
