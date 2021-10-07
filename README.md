@@ -40,7 +40,7 @@ git remote add origin https://github.com/username/app-name.git
 
 or
 
-git remote set-url origin https://<token>@github.com/<username>/<repo>
+git remote set-url origin https://token@github.com/username/repo
 
 git push -u origin main
 
